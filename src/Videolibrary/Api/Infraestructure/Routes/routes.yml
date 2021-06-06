@@ -1,0 +1,4 @@
+api.getVideo:
+  path: /videos
+  controller: 'api.controller.videos.getVideos'
+  methods: [GET]

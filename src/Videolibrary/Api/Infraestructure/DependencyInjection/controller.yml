@@ -1,0 +1,6 @@
+services:
+  api.controller.videos.getVideos:
+    class: App\Videolibrary\Api\Infraestructure\Ui\Http\Controller\Videos\GetVideosController
+    arguments:
+      - '@videolibrary.api.query.vide.getVideosHandler'
+    public: true
